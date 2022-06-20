@@ -1,0 +1,14 @@
+.banner{
+    position: relative;
+    &__imagen{
+        width: 100%;
+        object-fit: contain;
+    }
+    .owl-item{
+        transition: .8s all ease;
+        opacity: 0;
+        &.active{
+            opacity: 1;
+        }
+    }
+}

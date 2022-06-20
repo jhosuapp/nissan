@@ -1,0 +1,20 @@
+.owl-dots{
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    .owl-dot{
+        width: 20px;
+        height: 10px;
+        border-radius: 100px;
+        background-color: #fff !important;
+        transition: .3s all ease;
+        &.active{
+            background-color: $azul !important;
+            width: 30px;
+        }
+    }
+}

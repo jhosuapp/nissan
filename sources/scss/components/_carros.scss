@@ -1,0 +1,31 @@
+
+.carros{
+    width: 90%;
+    max-width: 1600px;
+    margin: 80px auto;
+    &__grid{    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    &__titulo{
+        font-size: 44px;
+        text-align: center;
+        margin: 60px auto;
+        color: $azul;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 2px;
+            background-color: $amarillo;
+            left: calc(50% - 25px);
+            bottom: 0;
+        }
+    }
+    &__imagen{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+}

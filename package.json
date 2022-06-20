@@ -1,0 +1,11 @@
+{
+  "name": "practica",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sources/scss/main.scss ./sources/css/main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
