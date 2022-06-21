@@ -12,3 +12,12 @@
         }
     }
 }
+
+@media(max-width: $celular){
+    .banner{
+        &__imagen{
+            height: 700px;
+            object-fit: cover;
+        }
+    }
+}

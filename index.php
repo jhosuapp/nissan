@@ -21,9 +21,6 @@
 <section class="carros">
     <h1 class="carros__titulo">Nuestros modelos</h1>
     <div class="carros__grid">
-        <div class="carros__item">
-
-        </div>
     </div>
 </section>
 

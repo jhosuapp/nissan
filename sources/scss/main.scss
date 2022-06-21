@@ -1,11 +1,12 @@
 //ABSTRACTS
 @import 'abstracts/fonts',
         'abstracts/variables',
-        'abstracts/restart';
+        'abstracts/restart',
+        'abstracts/animaciones';
 
-@import 'components/animaciones',
-        'components/carros',
+@import 'components/carros',
         'components/header',
         'components/banner',
         'components/carousel',
-        'components/loader';
+        'components/loader',
+        'components/footer';

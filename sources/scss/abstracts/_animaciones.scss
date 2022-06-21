@@ -1,0 +1,86 @@
+@keyframes loader__ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+//HAMBURGUESA
+@keyframes hamburguesa-cien {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+@keyframes hamburguesa-ochenta {
+    from{
+        width: 80%;
+    }
+    to{
+        width: 0;
+    }
+}
+@keyframes close-hamburguesa-cien {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes close-hamburguesa-ochenta {
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes close-hamburguesa-firts{
+    from{
+        transform: rotate(-50deg);
+    }
+    50%{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(0);
+        opacity: 0;
+    }
+}
+@keyframes close-hamburguesa-second{
+    from{
+        transform: rotate(50deg);
+    }
+    50%{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(0);
+        opacity: 0;
+    }
+}
+//FADE
+@keyframes fade-from-top {
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-defecto{
+    from{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}

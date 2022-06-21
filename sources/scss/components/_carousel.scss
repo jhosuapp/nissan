@@ -1,7 +1,7 @@
 .owl-dots{
     display: block;
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -15,6 +15,35 @@
         &.active{
             background-color: $azul !important;
             width: 30px;
+        }
+    }
+}
+.owl-nav{
+    span{
+        display: none;
+    }
+}
+.owl-carousel.banner__owl{
+    .owl-prev,
+    .owl-next{
+        max-width: 20px;
+        position: absolute;
+        top: calc(50% - 20px);
+        transition: .3s all ease;
+        img{
+            transition: .3s all ease;
+        }
+    }
+    .owl-prev{
+        left: 15px;
+        &:hover img{
+            margin-left: -10px;
+        }
+    }
+    .owl-next{
+        right: 15px;
+        &:hover img{
+            margin-right: -10px;
         }
     }
 }

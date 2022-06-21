@@ -1,0 +1,74 @@
+.footer{
+    padding: 60px 0 0 0;
+    border-top: 3px solid $gris;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__list{
+        max-width: 90%;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    &__item{
+        color: $gris;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        position: relative;
+        transition: .3s all ease;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0px;
+            background-color: $gris;
+            left: 0;
+            transition: .3s all ease;
+        }
+        &:hover::after{
+            width: 100%;
+        }
+    }
+    &__redes{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        &__link{
+
+        }
+        &__icono{
+            font-size: 22px;
+            color: $gris;
+            transition: .3s all ease;
+            &:hover{
+                opacity: .8;
+            }
+        }
+    }
+    &__bottom{
+        width: 100%;
+        background-color: $gris;
+        padding: 10px 0;
+        margin-top: 60px;
+        &__derechos{
+            color: #fff;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: $celular){
+    .footer{
+        &__list{
+            flex-direction: column;
+        }
+    }
+}
